@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spice Route - Online Food Ordering</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">Spice<span>Route</span></div>
+  <button id="menuToggle" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
+  <nav id="nav">
+    <a href="#menu">Menu</a><a href="#offers">Offers</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    <span class="cart">Cart (0)</span>
+  </nav>
+</header>
+
+<div class="banner">
+  <div>
+    <h1>Delicious food,<br>delivered hot to your door</h1>
+    <p>Authentic Andhra flavours, tandoor specials and fresh desserts. Order in minutes, enjoy in 30.</p>
+    <a class="btn" href="#menu">Order Now</a>
+  </div>
+  <div class="offer-box"><small>Use code SPICE50</small><b>50% OFF</b><small>On your first order</small></div>
+</div>
+
+<div class="info">
+  <div><b>Restaurant:</b> Spice Route, Benz Circle, Vijayawada</div>
+  <div><b>Open:</b> 10:00 AM – 11:00 PM</div>
+  <div><b>Delivery:</b> 30 min</div>
+  <div><b>Rating:</b> <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> 4.4 (2,380 reviews)</div>
+</div>
+
+<section id="menu">
+  <h2>Our Menu</h2>
+  <div class="cats">
+    <button class="on">All</button><button>Biryani</button><button>Starters</button><button>Main Course</button><button>Desserts</button><button>Drinks</button>
+  </div>
+  <div class="grid">
+    <div class="dish"><div class="img c1"><span class="tag nv">NON-VEG</span>Hyderabadi Chicken Biryani</div><div class="body"><div class="row"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><small>4.8</small></div><p>Basmati rice slow-cooked with spiced chicken, served with raita.</p><div class="row"><span class="price">&#8377;249<s>&#8377;320</s></span><button class="order">Order</button></div></div></div>
+    <div class="dish"><div class="img c3"><span class="tag">VEG</span>Paneer Butter Masala</div><div class="body"><div class="row"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span><small>4.5</small></div><p>Soft paneer cubes in a rich, creamy tomato gravy.</p><div class="row"><span class="price">&#8377;199<s>&#8377;240</s></span><button class="order">Order</button></div></div></div>
+    <div class="dish"><div class="img c2"><span class="tag nv">NON-VEG</span>Chicken 65</div><div class="body"><div class="row"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span><small>4.4</small></div><p>Crispy, spicy deep-fried chicken tossed with curry leaves.</p><div class="row"><span class="price">&#8377;179<s>&#8377;210</s></span><button class="order">Order</button></div></div></div>
+    <div class="dish"><div class="img c4"><span class="tag">VEG</span>Masala Dosa</div><div class="body"><div class="row"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span><small>4.3</small></div><p>Crisp rice crepe filled with spiced potato, with chutneys &amp; sambar.</p><div class="row"><span class="price">&#8377;99<s>&#8377;120</s></span><button class="order">Order</button></div></div></div>
+    <div class="dish"><div class="img c5"><span class="tag">VEG</span>Gulab Jamun (2 pcs)</div><div class="body"><div class="row"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><small>4.9</small></div><p>Warm milk dumplings soaked in rose-cardamom syrup.</p><div class="row"><span class="price">&#8377;69<s>&#8377;80</s></span><button class="order">Order</button></div></div></div>
+    <div class="dish"><div class="img c6"><span class="tag">VEG</span>Mango Lassi</div><div class="body"><div class="row"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span><small>4.6</small></div><p>Chilled yoghurt drink blended with ripe mango pulp.</p><div class="row"><span class="price">&#8377;79<s>&#8377;95</s></span><button class="order">Order</button></div></div></div>
+  </div>
+</section>
+
+<section id="offers" style="background:#fff">
+  <h2>Special Offers</h2>
+  <div class="offers">
+    <div class="offer"><b>Combo Feast</b><p>Biryani + Chicken 65 + Drink for &#8377;399</p></div>
+    <div class="offer"><b>Free Delivery</b><p>On all orders above &#8377;299</p></div>
+    <div class="offer"><b>Weekend Dessert Deal</b><p>Buy 1 dessert, get 1 free every Sat &amp; Sun</p></div>
+  </div>
+</section>
+
+<section id="reviews" class="reviews">
+  <h2>Customer Reviews</h2>
+  <div class="offers">
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>Best biryani in town! Arrived hot and the packaging was great.</p><div class="who">Ravi K.</div></div>
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span><p>Paneer butter masala was creamy and delicious. Delivery was quick.</p><div class="who">Anitha M.</div></div>
+    <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>Loved the gulab jamun and the weekend dessert offer!</p><div class="who">Karthik S.</div></div>
+  </div>
+</section>
+
+<footer id="contact">Spice Route · Benz Circle, Vijayawada · Call: 98765 43210 · &copy; 2026</footer>
+</body>
+</html>
 
