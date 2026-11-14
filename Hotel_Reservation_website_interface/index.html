@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grand Krishna Hotel - Reservations</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Grand Krishna</div>
+  <nav>
+    <a href="#rooms">Rooms</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#tariff">Tariff</a>
+    <a href="#book">Book Now</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Comfort &amp; Luxury in the Heart of Vijayawada</h1>
+  <p>Book your stay with the best rates guaranteed.</p>
+
+  <form class="quick-book">
+    <div>
+      <label for="in">Check-in</label>
+      <input type="date" id="in">
+    </div>
+    <div>
+      <label for="out">Check-out</label>
+      <input type="date" id="out">
+    </div>
+    <div>
+      <label for="guests">Guests</label>
+      <select id="guests"><option>1</option><option>2</option><option>3</option><option>4</option></select>
+    </div>
+    <button type="submit">Check Availability</button>
+  </form>
+</section>
+
+<section id="rooms">
+  <h2>Our Rooms</h2>
+  <div class="rooms">
+    <div class="room">
+      <div class="img r1">Standard Room</div>
+      <div class="info">
+        <h3>Standard Room</h3>
+        <p>Cozy room with a queen bed, AC and free Wi-Fi.</p>
+        <div class="row"><span class="price">₹2,200 / night</span><a href="#book" class="btn">Book</a></div>
+      </div>
+    </div>
+    <div class="room">
+      <div class="img r2">Deluxe Room</div>
+      <div class="info">
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with a king bed, city view and breakfast.</p>
+        <div class="row"><span class="price">₹3,500 / night</span><a href="#book" class="btn">Book</a></div>
+      </div>
+    </div>
+    <div class="room">
+      <div class="img r3">Executive Suite</div>
+      <div class="info">
+        <h3>Executive Suite</h3>
+        <p>Separate living area, bathtub and complimentary dinner.</p>
+        <div class="row"><span class="price">₹5,800 / night</span><a href="#book" class="btn">Book</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="facilities" class="alt">
+  <h2>Hotel Facilities</h2>
+  <ul class="facilities">
+    <li>Free Wi-Fi</li>
+    <li>Swimming Pool</li>
+    <li>Restaurant</li>
+    <li>24x7 Room Service</li>
+    <li>Parking</li>
+    <li>Fitness Room</li>
+  </ul>
+</section>
+
+<section id="tariff">
+  <h2>Room Tariff</h2>
+  <table>
+    <tr><th>Room Type</th><th>Single</th><th>Double</th><th>Extra Bed</th><th>Breakfast</th></tr>
+    <tr><td>Standard</td><td>₹2,200</td><td>₹2,600</td><td>₹500</td><td>Optional</td></tr>
+    <tr><td>Deluxe</td><td>₹3,500</td><td>₹3,900</td><td>₹600</td><td>Included</td></tr>
+    <tr><td>Executive Suite</td><td>₹5,800</td><td>₹6,300</td><td>₹800</td><td>Included</td></tr>
+  </table>
+</section>
+
+<section id="book" class="alt">
+  <h2>Reservation Form</h2>
+  <form class="reserve">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" required>
+
+    <label for="mail">Email</label>
+    <input type="email" id="mail" required>
+
+    <label for="mob">Mobile Number</label>
+    <input type="tel" id="mob" required>
+
+    <label for="room">Room Type</label>
+    <select id="room">
+      <option>Standard Room</option>
+      <option>Deluxe Room</option>
+      <option>Executive Suite</option>
+    </select>
+
+    <label for="cin">Check-in Date</label>
+    <input type="date" id="cin" required>
+
+    <label for="cout">Check-out Date</label>
+    <input type="date" id="cout" required>
+
+    <label for="req">Special Requests</label>
+    <textarea id="req" rows="3"></textarea>
+
+    <button type="submit">Confirm Reservation</button>
+  </form>
+</section>
+
+<footer>&copy; 2026 Grand Krishna Hotel · Call: 98765 43210</footer>
+
+</body>
+</html>
 
